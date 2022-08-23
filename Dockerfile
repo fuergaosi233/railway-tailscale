@@ -1,0 +1,1 @@
+FROM mvisonneau/tailscale:latest
