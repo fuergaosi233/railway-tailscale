@@ -1,1 +1,2 @@
 FROM mvisonneau/tailscale:latest
+ENV TAILSCALED_TUN=userspace-networking
