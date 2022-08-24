@@ -5,18 +5,19 @@
   </a>
 </p>
 
-> Run tailscale on railway.app
+> Run tailscale on railway.app  
 > Thanks to @mvisonneaue for creating tailscale image.
 
 ## How to use this repo
 
 1. Fork this repo.
-2. Create New project in railway.app via this repo.
-3. Config Env.
+2. Create new project in railway.app via this repo.
+3. Config env.  
 
 ```env
+# ENV example
+
 TAILSCALE_AUTH_KEY=<Your Auth Key>
-# Use Railway as exit node
 TAILSCALE_ADVERTISE_EXIT_NODE=true
 ```
 
